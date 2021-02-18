@@ -7,7 +7,7 @@ module.exports = {
     ],
 
      getAll(){
-         return this.posts;
+         return this.posts.reverse();
      },
 
      getpost(titulo,descricao){
